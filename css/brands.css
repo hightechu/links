@@ -40,7 +40,7 @@ button {
   text-align: center;
   vertical-align: middle;
   font-size: 18px;
-  width: 300px;
+  width: 100%;
   font-weight: 600;
   line-height: 48px;
   letter-spacing: 0.5px;
@@ -62,6 +62,39 @@ button:hover,
   color: #FFF;
   filter: brightness(90%) }
 
+  .buttonLong,
+  button {
+    display: inline-block;
+    text-decoration: none;
+    height: 48px;
+    padding: 0 16px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 18px;
+    width: 100%;
+    font-weight: 600;
+    line-height: 48px;
+    letter-spacing: 0.5px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    background-color: transparent;
+    border-radius: 8px;
+    cursor: pointer;
+    box-sizing: border-box;
+    margin-bottom: 16px;}
+  button:hover,
+  .buttonLong:focus {
+    color: #333;
+    border-color: #888;
+    outline: 0; }
+  .buttonLong.button-primary {
+    color: #FFF;
+    filter: brightness(90%) }
+  .buttonLong.button-primary:hover,
+  .buttonLong.button-primary:focus {
+    color: #FFF;
+    filter: brightness(90%) }
 
 /* Brand Icons
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -204,7 +237,7 @@ button:hover,
 .button.button-steam:hover,
 .button.button-steam:focus {
   filter: brightness(90%) }
-  
+
 /* Telegram */
 .button.button-telegram {
   color: #FFFFFF;
@@ -246,10 +279,9 @@ button:hover,
   filter: brightness(90%) }
 
 /* Website Link */
-.button.button-link {
+.buttonLong.button-link {
   color: #000000;
   background-color: #E8F3EC }
-.button.button-link:hover,
-.button.button-link:focus {
+.buttonLong.button-link:hover,
+.buttonLong.button-link:focus {
   filter: brightness(90%) }
-
