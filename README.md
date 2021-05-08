@@ -1,6 +1,6 @@
 # 🔗 HighTechU LittleLink
 
-## Relevant Links for HighTechU | [Check it out here](https://hightechu.github.io/links/)
+## Relevant Links for HighTechU | [Check It Out Here!](https://hightechu.github.io/links/)
 
   Light Theme              |  Dark Theme
 :-------------------------:|:-------------------------:
